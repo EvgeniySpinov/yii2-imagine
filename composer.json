@@ -17,6 +17,23 @@
             "email": "amigo.cobos@gmail.com"
         }
     ],
+    "repositories":[
+        {
+          "type": "package",
+            "package": {
+                "name": "yiisoft/yii2",
+                "version": "dev-master",
+                "source": {
+                  "url": "https://github.com/GrowlMediaLtd/yii2.git",
+                  "type": "git",
+                  "reference": "master"
+                },
+                "autoload": {
+                  "classmap": [""]
+                }
+            }
+        }
+    ],
     "require": {
         "yiisoft/yii2": "*",
         "imagine/imagine": "0.5.*"
